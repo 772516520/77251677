@@ -142,7 +142,6 @@ export default class GenerateDevice {
             return Math.abs((100 - sum) % 10);
         }
 
-        console.log(calcSP(imei));
         return imei + calcSP(imei);
     }
 }
